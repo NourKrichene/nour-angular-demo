@@ -1,0 +1,40 @@
+<div class="container">
+    <div class="row">
+
+        <div class="col-6">
+            <div class="dropzone" appDropFile (filesChangeEmitter)="onFilesChange($event)">
+                <div class="text-wrapper" (click)="fileInput.click()">
+                    <div class="centered">Drop files here or click to select files to import</div>
+                </div>
+
+                <input type="file" name="file" (change)="fileChange()" #fileInput style="display: none" multiple/>
+
+            </div>
+        </div>
+
+
+        <div class="col-6">
+            <div appDropFile (filesChangeEmitter)="onFilesChange($event)">
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+                Some quick example text to build on the card title and make up the
+                bulk of the card's content.
+            </div>
+
+
+            <div *ngIf="fileList.length > 0 ">
+                <p class="h3">Files uploaded</p>
+                <ul>
+                    <li *ngFor="let file of fileList">
+                        {{ file.name }}
+                    </li>
+                </ul>
+            </div>
+
+        </div>
+    </div>
+</div>
