@@ -1,3 +1,5 @@
+[![Build Status](https://travis-ci.com/NoorKrichen/nour-demo.svg?branch=master)](https://travis-ci.com/NoorKrichen/nour-demo)
+
 # NourDemo
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
