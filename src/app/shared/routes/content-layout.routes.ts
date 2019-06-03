@@ -26,8 +26,8 @@ export const CONTENT_ROUTES: Routes = [
     },
 
     {
-        path: 'about',
-        loadChildren: './modules/about/about.module#AboutModule'
+        path: 'favorite',
+        loadChildren: './modules/favorite/favorite.module#FavoriteModule'
     }
 
 ];

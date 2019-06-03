@@ -12,7 +12,7 @@ export class NavComponent implements OnInit {
         {link: '/cards', title: 'Cards'},
         {link: '/form', title: 'Form'},
         {link: '/files', title: 'Files'},
-        {link: '/about', title: 'About'}
+        {link: '/favorite', title: 'Favorite'}
     ];
 
     constructor() {
