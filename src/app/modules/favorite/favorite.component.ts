@@ -23,7 +23,7 @@ export class FavoriteComponent implements OnInit {
     }
 
     addFavorite(name, url) {
-        this.store.dispatch(new FavoriteActions.AddFavorite({ name: name, url: url }));
+        this.store.dispatch(new FavoriteActions.AddFavorite({ name, url }));
     }
 
     delFavorite(index) {
