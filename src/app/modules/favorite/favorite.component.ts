@@ -15,7 +15,6 @@ import * as FavoriteActions from './store/actions/favorite.actions';
 export class FavoriteComponent implements OnInit {
     favorites: Observable<Favorite[]>;
 
-    // Section 2
     constructor(private store: Store<FavoriteState>) {
         this.favorites = store.select('favorite');
     }
