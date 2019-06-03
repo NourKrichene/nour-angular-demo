@@ -12,6 +12,11 @@ export function reducer(state: Favorite[] = [initialState], action: FavoriteActi
     switch (action.type) {
         case FavoriteActions.ADD_FAVORITE:
             return [...state, action.payload];
+
+        case FavoriteActions.REMOVE_FAVORITE:
+            state.splice(action.payload, 1);
+            return state;
+
         default:
             return state;
     }
