@@ -1,8 +1,8 @@
-[![Build Status](https://travis-ci.com/NoorKrichen/nour-demo.svg?branch=master)](https://travis-ci.com/NoorKrichen/nour-demo)
+[![Build Status](https://travis-ci.com/NoorKrichen/nour-demo.svg?token=CSQ66XizRQksiBMQPuMx&branch=master)](https://travis-ci.com/NoorKrichen/nour-demo)
 
 # NourDemo
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2.
+This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 7.3.2. It is a frontend application.
 
 ## Development server
 
