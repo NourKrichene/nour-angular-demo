@@ -1,3 +1,21 @@
 <p>
     about works!
 </p>
+
+<div class="right" *ngIf="favorites">
+
+    <h3>Favorites</h3>
+   
+      <li *ngFor="let favorite of favorites  | async">
+        <a [href]="favorite.url" target="_blank">{{ favorite.name }}</a>
+      </li>
+
+  </div>
+
+  <div class="left">
+
+    <input type="text" placeholder="name" #name>
+    <input type="text" placeholder="url" #url>
+  
+    <button (click)="addFavorite(name.value,url.value)">Add a Favorite</button>
+  </div>
