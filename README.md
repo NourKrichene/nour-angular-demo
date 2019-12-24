@@ -5,20 +5,20 @@
 Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-demo/
 
 
-Technical set:
--Angular 7.
--Clean files structure.
--Lazy loading and preload all modules strategy.
+Technical set:__
+-Angular 7.__
+-Clean files structure.__
+-Lazy loading and preload all modules strategy.__
 -Bootstrap for page structuring.
--Travis-ci as continuous integration tool.
--Ngrx store for state management.
+-Travis-ci as continuous integration tool.__
+-Ngrx store for state management.__
 
-Functionalities:
--Drag and drop one or many files.
--Adding elements to a list.
--Clickable cards.
--Reactive form example.
--Navigation between elements of the navbar.
+Functionalities:__
+-Drag and drop one or many files.__
+-Adding elements to a list.__
+-Clickable cards.__
+-Reactive form example.__
+-Navigation between elements of the navbar.__
 
 ## Development server
 
