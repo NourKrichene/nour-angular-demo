@@ -2,7 +2,7 @@
 
 # NourAngularDemo
 
-Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-demo/
+Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-angular-demo/
 
 
 Technical set:<br />
