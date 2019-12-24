@@ -9,7 +9,7 @@ Technical set:<br />
 -Angular 7.<br />
 -Clean files structure.<br />
 -Lazy loading and preload all modules strategy.<br />
--Bootstrap for page structuring.
+-Bootstrap for page structuring.<br />
 -Travis-ci as continuous integration tool.<br />
 -Ngrx store for state management.<br />
 <br />
