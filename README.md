@@ -2,7 +2,7 @@
 
 # NourDemo
 
-Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-demo/cards
+Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-demo/
 
 
 Technical set:
