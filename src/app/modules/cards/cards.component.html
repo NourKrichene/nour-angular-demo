@@ -1,17 +1,17 @@
 <div class="container">
     <div class="row">
 
-        <div class="h3 col-12">Cards</div>
+        <div class="h3 col-12 my-3">Clickable cards</div>
 
         <div class="col-4">
             <div class="card">
-                <a (click)="onClickMe()" class="stretched-link card-link"></a>
+                <a (click)="onClickMe('1')" class="stretched-link card-link"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <h5 class="card-title">Card title 1</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle 1</h6>
                     <p class="card-text">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Sed finibus elit ante, vitae blandit sem feugiat in. Nulla laoreet aliquet accumsan. Vivamus eu iaculis ex. Sed pellentesque purus eget arcu auctor, in varius urna sagittis. Donec diam tellus, efficitur
+                        vel tempor et, aliquam eget ex. Cras vel molestie mi. Maecenas vel mi lacus. Integer accumsan neque tortor, a pulvinar turpis maximus et. Sed at nisl ligula.
                     </p>
                 </div>
             </div>
@@ -19,13 +19,12 @@
 
         <div class="col-4">
             <div class="card">
-                <a (click)="onClickMe()" class="stretched-link card-link"></a>
+                <a (click)="onClickMe('2')" class="stretched-link card-link"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
-                    <p class="card-text">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
+                    <h5 class="card-title">Card title 2</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle 2</h6>
+                    <p class="card-text">Sed sit amet turpis lectus. Mauris sit amet neque non nisi venenatis viverra. Pellentesque habitant morbi tristique senectus et netus et malesuada fames ac turpis egestas. Ut ante ex, pharetra vitae arcu non, congue bibendum velit.
+                        Nullam aliquet aliquet elit. Donec viverra lobortis eros vitae cursus. Sed placerat purus augue, in consequat nunc pharetra eget.
                     </p>
                 </div>
             </div>
@@ -33,19 +32,20 @@
 
         <div class="col-4">
             <div class="card">
-                <a (click)="onClickMe()" class="stretched-link card-link"></a>
+                <a (click)="onClickMe('3')" class="stretched-link card-link"></a>
                 <div class="card-body">
-                    <h5 class="card-title">Card title</h5>
-                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle</h6>
+                    <h5 class="card-title">Card title 3</h5>
+                    <h6 class="card-subtitle mb-2 text-muted">Card subtitle 3</h6>
                     <p class="card-text">
-                        Some quick example text to build on the card title and make up the
-                        bulk of the card's content.
-                    </p>
+                        Nunc nunc lacus, pellentesque et placerat sed, efficitur ac tellus. Aliquam erat volutpat. Nullam quis luctus elit. Duis eu rutrum nulla, vel lacinia turpis. Ut cursus facilisis dolor, sit amet pharetra leo convallis id. Curabitur vehicula dapibus vestibulum.
+                        Nunc id condimentum dui. Morbi iaculis eu eros eu fringilla. Quisque consequat egestas consectetur. </p>
                 </div>
             </div>
             <br>
 
         </div>
-
+        <div class="col-3 mt-5">
+            <h4 style="color:green">{{chosenCard}}</h4>
+        </div>
     </div>
 </div>

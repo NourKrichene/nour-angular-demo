@@ -26,15 +26,15 @@ export class FormComponent implements OnInit {
         });
         this.signUpForm.setValue({
             userData: {
-                username: 'Max',
-                email: 'max@test.com'
+                username: 'John',
+                email: 'JohnDoe@test.com'
             },
             gender: 'male',
             hobbies: []
         });
         this.signUpForm.patchValue({
             userData: {
-                username: 'Anna',
+                username: 'John',
             }
         });
     }

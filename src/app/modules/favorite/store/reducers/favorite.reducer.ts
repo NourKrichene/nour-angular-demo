@@ -1,9 +1,8 @@
-import { Action } from '@ngrx/store';
 import * as FavoriteActions from '../actions/favorite.actions';
 import { Favorite } from '../../models/favorite.model';
 
 const initialState: Favorite = {
-    name: 'Initial favorite url',
+    name: 'Initial favorite website: google',
     url: 'http://google.com'
 };
 
