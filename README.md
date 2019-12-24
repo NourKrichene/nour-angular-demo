@@ -1,6 +1,6 @@
 [![Build Status](https://travis-ci.com/NoorKrichen/nour-demo.svg?token=CSQ66XizRQksiBMQPuMx&branch=master)](https://travis-ci.com/NoorKrichen/nour-demo)
 
-# NourDemo
+# NourAngularDemo
 
 Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-demo/
 
