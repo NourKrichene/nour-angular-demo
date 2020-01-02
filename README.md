@@ -1,5 +1,7 @@
 [![Build Status](https://travis-ci.com/NoorKrichen/nour-angular-demo.svg?token=CSQ66XizRQksiBMQPuMx&branch=master)](https://travis-ci.com/NoorKrichen/nour-angular-demo)
 
+[![BCH compliance](https://bettercodehub.com/edge/badge/NoorKrichen/nour-angular-demo?branch=master)](https://bettercodehub.com/)
+
 # NourAngularDemo
 
 Angular project that demonstrates a bunch of very used functionalities and some technologies. It can be visited via this link : https://noorkrichen.github.io/nour-angular-demo/
