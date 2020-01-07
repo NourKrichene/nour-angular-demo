@@ -25,7 +25,7 @@
     "core-js": "^2.5.4",
     "jquery": "^3.4.0",
     "primeicons": "^2.0.0",
-    "primeng": "^7.0.5",
+    "primeng": "^8.1.1",
     "rxjs": "~6.5.4",
     "serialize-javascript": "^2.1.2",
     "set-value": "^3.0.1",
