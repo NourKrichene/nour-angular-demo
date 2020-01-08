@@ -19,18 +19,18 @@
     "@angular/platform-browser": "~7.2.0",
     "@angular/platform-browser-dynamic": "~7.2.0",
     "@angular/router": "~7.2.0",
-    "@ngrx/store": "^7.4.0",
+    "@ngrx/store": "~8.6.0",
     "@ngrx/store-devtools": "^7.4.0",
-    "bootstrap": "^4.4.1",
+    "bootstrap": "~4.4.1",
     "core-js": "^2.5.4",
     "jquery": "^3.4.0",
     "primeicons": "^2.0.0",
-    "primeng": "^7.0.5",
+    "primeng": "~8.1.1",
     "rxjs": "~6.5.4",
     "serialize-javascript": "^2.1.2",
     "set-value": "^3.0.1",
     "tslib": "^1.10.0",
-    "zone.js": "~0.8.26"
+    "zone.js": "~0.10.2"
   },
   "devDependencies": {
     "@angular-devkit/build-angular": "~0.13.0",
