@@ -6,7 +6,7 @@ import {Component, OnInit, ViewChild} from '@angular/core';
     styleUrls: ['./files.component.css']
 })
 export class FilesComponent implements OnInit {
-    @ViewChild('fileInput') fileInput;
+    @ViewChild('fileInput', { static: true }) fileInput;
 
     fileList: any = [];
 
