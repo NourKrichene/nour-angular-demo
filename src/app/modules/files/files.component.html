@@ -7,7 +7,7 @@
                     <div class="centered">Drop files here or click to select files to import</div>
                 </div>
 
-                <input type="file" name="file" (change)="fileChange()" #fileInput style="display: none" multiple/>
+                <input type="file" name="file" (change)="fileChange()" #fileInput style="display: none" multiple />
 
             </div>
         </div>
@@ -15,9 +15,9 @@
 
         <div class="col-6 ">
             <div appDropFile (filesChangeEmitter)="onFilesChange($event)">
-                <h4>Drop files here to import</h4> This part is used to demonstrate the ability of dropping files on text. Is it possible to pass files on another type of elements just by editing the content of this code.
+                <h4>Drop files here to import</h4> This part is used to demonstrate the ability of dropping files on
+                text. Is it possible to pass files on another type of elements just by editing the content of this code.
             </div>
-
 
             <div *ngIf="fileList.length > 0 ">
                 <p class="h3">Files uploaded</p>
