@@ -27,7 +27,7 @@
         "kind-of": "^6.0.3",
         "minimist": "^1.2.5",
         "primeicons": "^3.0.0",
-        "primeng": "~9.0.6",
+        "primeng": "~10.0.1",
         "rxjs": "~6.5.5",
         "serialize-javascript": "^4.0.0",
         "set-value": "^3.0.2",
