@@ -11,7 +11,7 @@ export class FormComponent implements OnInit {
     genders = ['male', 'female'];
     signUpForm: FormGroup;
     forbiddenUserNames = ['Chris', 'Anna'];
-
+    isPrice =false;
     constructor() {
     }
 
