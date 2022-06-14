@@ -13,7 +13,7 @@ before_script:
 
 script:
   - ng lint
-  - ng build --prod --base-href https://noorkrichen.github.io/nour-angular-demo/
+  - ng build --prod --base-href https://nourkrichene.github.io/nour-angular-demo/
 
 deploy:
   provider: pages
