@@ -7,24 +7,27 @@
                     <div class="form-group">
                         <label for="username">Username</label>
                         <input type="text" id="username" formControlName="username" class="form-control">
-                        <span *ngIf="!signUpForm.get('userData.username').valid && signUpForm.get('userData.username').touched" class="help-block">
-              <span *ngIf="signUpForm.get('userData.username').errors['nameIsForbidden']">This name is invalid!</span>
-                        <span *ngIf="signUpForm.get('userData.username').errors['required']">This field is required!</span>
+                        <span
+                            *ngIf="!signUpForm.get('userData.username').valid && signUpForm.get('userData.username').touched"
+                            class="help-block">
+                            <span *ngIf="signUpForm.get('userData.username').errors['nameIsForbidden']">This name is
+                                invalid!</span>
+                            <span *ngIf="signUpForm.get('userData.username').errors['required']">This field is
+                                required!</span>
 
                         </span>
                     </div>
                     <div class="form-group">
                         <label for="email">email</label>
                         <input type="text" id="email" formControlName="email" class="form-control">
-                        <span *ngIf="!signUpForm.get('userData.email').valid && signUpForm.get('userData.email').touched" class="help-block">Please enter a valid email!</span>
+                        <span
+                            *ngIf="!signUpForm.get('userData.email').valid && signUpForm.get('userData.email').touched"
+                            class="help-block">Please enter a valid email!</span>
                     </div>
                 </div>
                 <div class="radio" *ngFor="let gender of genders">
                     <label>
-                        <input
-                                type="radio"
-                                formControlName="gender"
-                                [value]="gender">{{ gender }}
+                        <input type="radio" formControlName="gender" [value]="gender">{{ gender }}
                     </label>
                 </div>
 
@@ -33,31 +36,4 @@
             </form>
         </div>
     </div>
-
-<br>
-
-<h4>Example Bolbol</h4>
-    <div class="radio" >
-        <label>
-            <input
-                    type="radio"
-                    [value]="true"  [(ngModel)]="isPrice"
-                 > choice1
-                    <input
-                    type="text"
-                    [disabled]="!isPrice">
-        </label>
-    </div>
-    <div class="radio" >
-        <label>
-            <input
-                    type="radio"
-                    [value]="false"  [(ngModel)]="isPrice"
-                    > choice2
-                    <input
-                    type="text"
-                    [disabled]="isPrice">
-        </label>
-    </div>
-
 </div>

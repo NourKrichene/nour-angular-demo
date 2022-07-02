@@ -1,6 +1,6 @@
-import {Component, OnInit} from '@angular/core';
-import {FormArray, FormControl, FormGroup, Validators} from '@angular/forms';
-import {Observable} from 'rxjs';
+import { Component, OnInit } from '@angular/core';
+import { FormArray, FormControl, FormGroup, Validators } from '@angular/forms';
+import { Observable } from 'rxjs';
 
 @Component({
     selector: 'app-form',
@@ -11,7 +11,6 @@ export class FormComponent implements OnInit {
     genders = ['male', 'female'];
     signUpForm: FormGroup;
     forbiddenUserNames = ['Chris', 'Anna'];
-    isPrice =false;
     constructor() {
     }
 
@@ -50,7 +49,7 @@ export class FormComponent implements OnInit {
 
     forbiddenNames(control: FormControl): { [s: string]: boolean } {
         if (this.forbiddenUserNames.indexOf(control.value) !== -1) {
-            return {nameIsForbidden: true};
+            return { nameIsForbidden: true };
         }
         return null;
     }
@@ -59,7 +58,7 @@ export class FormComponent implements OnInit {
         return new Promise<any>((resolve) => {
             setTimeout(() => {
                 if (control.value === 'test@test.com') {
-                    resolve({emailIsForbidden: true});
+                    resolve({ emailIsForbidden: true });
                 } else {
                     resolve(null);
                 }
